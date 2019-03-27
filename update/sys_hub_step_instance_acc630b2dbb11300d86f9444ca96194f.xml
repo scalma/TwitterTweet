@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Tweet">80c6fc72dbb11300d86f9444ca9619b3</action>
+        <cid>249fc7f2-8961-4e59-80d7-9be6ad32315d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>4</order>
+        <outputs/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:24</sys_created_on>
+        <sys_id>acc630b2dbb11300d86f9444ca96194f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update Record step</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sys_hub_step_instance_acc630b2dbb11300d86f9444ca96194f</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:17:25</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acc630b2dbb11300d86f9444ca96194f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acc630b2dbb11300d86f9444ca96194f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:25</sys_created_on>
+        <sys_id>2cc630b2dbb11300d86f9444ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:17:25</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acc630b2dbb11300d86f9444ca96194f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>acc630b2dbb11300d86f9444ca96194f</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:25</sys_created_on>
+        <sys_id>a8c630b2dbb11300d86f9444ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:17:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{action.ah_incident}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>acc630b2dbb11300d86f9444ca96194f</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:25</sys_created_on>
+        <sys_id>24c630b2dbb11300d86f9444ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:17:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>acc630b2dbb11300d86f9444ca96194f</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:17:25</sys_created_on>
+        <sys_id>e4c630b2dbb11300d86f9444ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:17:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>work_notes={{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].worknote}}</value>
+    </sys_element_mapping>
+</record_update>

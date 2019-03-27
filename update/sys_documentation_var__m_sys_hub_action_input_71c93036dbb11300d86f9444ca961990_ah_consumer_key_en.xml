@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ah_consumer_key" label="consumer_key" language="en" table="var__m_sys_hub_action_input_71c93036dbb11300d86f9444ca961990">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ah_consumer_key</element>
+            <help/>
+            <hint/>
+            <label>consumer_key</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_71c93036dbb11300d86f9444ca961990</name>
+            <plural>consumer_key</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Arnoud.Kooi</sys_created_by>
+            <sys_created_on>2018-05-04 15:30:37</sys_created_on>
+            <sys_id>cec93036dbb11300d86f9444ca9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>consumer_key</sys_name>
+            <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_71c93036dbb11300d86f9444ca961990_ah_consumer_key_en</sys_update_name>
+            <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+            <sys_updated_on>2018-05-04 15:30:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

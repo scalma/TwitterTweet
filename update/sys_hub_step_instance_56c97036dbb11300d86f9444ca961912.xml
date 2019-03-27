@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Tweet">71c93036dbb11300d86f9444ca961990</action>
+        <cid>5aed812f-0978-4d6d-bd33-55a4a78d5d8f</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Tweet via REST</label>
+        <order>2</order>
+        <outputs/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>56c97036dbb11300d86f9444ca961912</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Tweet via REST</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sys_hub_step_instance_56c97036dbb11300d86f9444ca961912</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=56c97036dbb11300d86f9444ca961912"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56c97036dbb11300d86f9444ca961912</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>1ec97036dbb11300d86f9444ca961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56c97036dbb11300d86f9444ca961912</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>5ac97036dbb11300d86f9444ca961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <value>post</value>
+        <variable display_value="">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>56c97036dbb11300d86f9444ca961912</document_key>
+        <order>60</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>96c97036dbb11300d86f9444ca961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <value>{"Content-Type":"application/x-www-form-urlencoded"}</value>
+        <variable display_value="">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=56c97036dbb11300d86f9444ca961912"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>56c97036dbb11300d86f9444ca961912</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>52c97036dbb11300d86f9444ca961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{step[12272870-0660-4725-907f-9ce7ed0d17d6].endpointAndQuery}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>56c97036dbb11300d86f9444ca961912</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>16c97036dbb11300d86f9444ca961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>56c97036dbb11300d86f9444ca961912</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>dac97036dbb11300d86f9444ca961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>56c97036dbb11300d86f9444ca961912</id>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:38</sys_created_on>
+        <sys_id>9ec97036dbb11300d86f9444ca961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

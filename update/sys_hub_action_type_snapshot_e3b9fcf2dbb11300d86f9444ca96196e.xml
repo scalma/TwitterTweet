@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Twitter">dbc3b432dbb11300d86f9444ca961983</category>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_incident}}","label":"action➛incident","type":"action","ref":"incident"},{"name":"{{action.ah_consumer_key}}","label":"action➛consumer_key","type":"action","ref":""},{"name":"{{action.ah_consumer_secret}}","label":"action➛consumer_secret","type":"action","ref":""},{"name":"{{action.ah_access_token}}","label":"action➛access_token","type":"action","ref":""},{"name":"{{action.ah_access_token_secret}}","label":"action➛access_token_secret","type":"action","ref":""},{"name":"{{step[12272870-0660-4725-907f-9ce7ed0d17d6].endpointAndQuery}}","label":"step➛Generate Twitter Data➛endpointAndQuery","type":"step","ref":""},{"name":"{{step[5aed812f-0978-4d6d-bd33-55a4a78d5d8f].response_body}}","label":"step➛Tweet via REST➛Response Body","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].w}}","label":"step➛Prepare Worknote➛w","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].wo}}","label":"step➛Prepare Worknote➛wo","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].wor}}","label":"step➛Prepare Worknote➛wor","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].work}}","label":"step➛Prepare Worknote➛work","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].workn}}","label":"step➛Prepare Worknote➛workn","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].workno}}","label":"step➛Prepare Worknote➛workno","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].worknot}}","label":"step➛Prepare Worknote➛worknot","type":"step","ref":""},{"name":"{{step[72be45a3-8e1a-451a-bc20-51e6f5ee7454].worknote}}","label":"step➛Prepare Worknote➛worknote","type":"step","ref":""}]</label_cache>
+        <name>Tweet</name>
+        <outputs/>
+        <parent_action display_value="Tweet">a6d334bedb711300d86f9444ca961966</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Arnoud.Kooi</sys_created_by>
+        <sys_created_on>2018-05-04 15:30:27</sys_created_on>
+        <sys_id>e3b9fcf2dbb11300d86f9444ca96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tweet</sys_name>
+        <sys_package display_value="TwitterTweet" source="x_220561_twittertw">3673b032dbb11300d86f9444ca96192c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TwitterTweet">3673b032dbb11300d86f9444ca96192c</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_e3b9fcf2dbb11300d86f9444ca96196e</sys_update_name>
+        <sys_updated_by>Arnoud.Kooi</sys_updated_by>
+        <sys_updated_on>2018-05-04 15:30:27</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e3b9fcf2dbb11300d86f9444ca96196e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e3b9fcf2dbb11300d86f9444ca96196e"/>
+</record_update>
